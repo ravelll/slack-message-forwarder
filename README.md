@@ -1,16 +1,12 @@
 ## Usage
 
-Create a config file `reacjien.yml` like below.
+### To work with docker
+
+Execute `docker build` with setting for environment variables.
 
 ```
-channel: general
-emoji: smiley
-message: hello
 ```
 
-Instal gems, and run it!
+### To work it in local
 
-```
-$ bundle install
-$ bundle exec reacjien.rb -c path/to/reacjien.yml
-```
+Copy `.envrc.sample` to be named `.envrc`, and edit it with your values.
